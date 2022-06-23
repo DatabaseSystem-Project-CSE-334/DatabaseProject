@@ -1,0 +1,78 @@
+.FirstHeading {
+    text-align: center;
+    color: purple;
+}
+
+.menu {
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 30px;
+    color: purple;
+}
+
+.menu a:hover {
+    background-color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu a {
+        background-color: darksalmon;
+        margin: 5px;
+        text-align: center;
+    }
+}
+
+.Block {
+    border: 10px;
+    height: 100%;
+    width: 15%;
+    margin-top: 20px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.Block a {
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 50px;
+    border: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.Block a:hover {
+    background-color: gray;
+}
+
+.DisBlock {
+    border: 10px;
+    background-color: blueviolet;
+    width: 50%;
+    margin: 5px;
+}
+
+.sec {
+    float: ;
+}
+
+.Profilebtn {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: paleturquoise;
+    font-size: large;
+}
+
+.Profilebtn:hover {
+    background-color: gray;
+}
