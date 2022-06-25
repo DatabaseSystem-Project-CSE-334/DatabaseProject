@@ -3,6 +3,11 @@
     color: purple;
 }
 
+h1 {
+    text-align: center;
+    color: purple;
+}
+
 .menu {
     background-color: paleturquoise;
     display: flex;
@@ -61,9 +66,7 @@
     margin: 5px;
 }
 
-.sec {
-    float: ;
-}
+.sec {}
 
 .Profilebtn {
     border: none;
@@ -74,5 +77,40 @@
 }
 
 .Profilebtn:hover {
+    background-color: gray;
+}
+
+.LoginArea {
+    margin-top: 50px;
+    font-size: large;
+}
+
+.submit-area {
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 40px;
+}
+
+.LoginArea a {
+    text-decoration: none;
+}
+
+.LoginArea a:hover {
+    background-color: gray;
+}
+
+.RegisterLink {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.RegisterLink a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+
+.RegisterLink a:hover {
     background-color: gray;
 }
