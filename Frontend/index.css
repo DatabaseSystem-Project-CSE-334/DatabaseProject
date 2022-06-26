@@ -36,6 +36,7 @@ h1 {
 }
 
 .Block {
+    font-size: xx-large;
     border: 10px;
     height: 100%;
     width: 15%;
@@ -125,7 +126,16 @@ h1 {
 }
 
 .RegiSubmitBtn {
-    margin-left: 350px;
-    font-size: larger;
-    background-color: aquamarine;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.RegiSubmitBtn:hover {
+    opacity: 1;
 }
