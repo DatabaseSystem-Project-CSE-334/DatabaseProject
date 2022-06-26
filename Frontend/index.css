@@ -114,3 +114,18 @@ h1 {
 .RegisterLink a:hover {
     background-color: gray;
 }
+
+.DocRegiPage {
+    margin-left: 150px;
+    font-size: medium;
+}
+
+.WorkingArea {
+    margin-left: 50px;
+}
+
+.RegiSubmitBtn {
+    margin-left: 350px;
+    font-size: larger;
+    background-color: aquamarine;
+}
