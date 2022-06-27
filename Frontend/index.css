@@ -39,12 +39,18 @@ h1 {
     font-size: xx-large;
     border: 10px;
     height: 100%;
-    width: 15%;
+    width: 80%;
     margin-top: 20px;
+    margin: 20px;
     background-color: paleturquoise;
     display: flex;
     justify-content: start;
     flex-direction: column;
+    float: left;
+}
+
+#SideBtn {
+    width: 15%;
 }
 
 .Block a {
@@ -67,8 +73,6 @@ h1 {
     margin: 5px;
 }
 
-.sec {}
-
 .Profilebtn {
     border: none;
     padding: 5px;
@@ -87,7 +91,7 @@ h1 {
 }
 
 .submit-area {
-    font-size: xx-large;
+    font-size: medium;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
     padding: 40px;
@@ -137,5 +141,20 @@ h1 {
 }
 
 .RegiSubmitBtn:hover {
+    opacity: 1;
+}
+
+.LoginBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.LoginBtn:hover {
     opacity: 1;
 }
