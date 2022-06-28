@@ -15,7 +15,7 @@
 
 <body>
     <div class="menu">
-        <button class="Profilebtn"><i class="fa-solid fa-user"></i></button>
+        <button class="Profilebtn" id="ProfileBtn"><i class="fa-solid fa-user"></i></button>
         <a href="index.html">Home</a>
         <a href="AppointmentList.html">Appointment</a>
         <a href="#">Contact</a>
@@ -28,10 +28,10 @@
     <section class="sec">
 
         <div class="Block" id="SideBtn">
-            <a href="#"><b>Patient</b></a>
-            <a href="#"><b>Doctor</b></a>
+            <button class="aa" id="UserBtn"><b>User/Patient</b></button>
+            <button class="aa" id="DoctorBtn"><b>Doctor</b></button>
         </div>
-        <div class="Block">
+        <div class="Block" id="DisBlock">
             <p>Hello</p>
             <p>On Monday, two Russian missiles struck a busy shopping center in the Ukrainian city of #Kremenchuk where 10 people were reported killed and 40 wounded according to the regional governor. #Russia denies targeting civilians. According to Ukrainian
                 President Volodymyr #Zelenskiy more than 1,000 people were at the shopping center when the incident took place, which according to witnesses, resulted in a large fire and thick smoke pouring into the sky. "The number of victims is beyond
@@ -43,6 +43,20 @@
         </div>
     </section>
 
+    <div class="PopupProfile">
+        <div class="Popup-content">
+            <div class="close">+</div>
+            <img src="/Resources/ProfileAvatar.png">
+            <p>Your Name</p>
+        </div>
+    </div>
+
+    <div class="DocAppointmentList" id="DocAppointmentList">
+        <p>
+            Your Appointment List
+        </p>
+
+    </div>
 
     <script src="index.js"></script>
 </body>
