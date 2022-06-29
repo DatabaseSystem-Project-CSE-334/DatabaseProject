@@ -54,7 +54,7 @@ h1 {
     border: 10px;
     height: 100%;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: paleturquoise;
     display: flex;
     flex-wrap: wrap;
@@ -296,5 +296,5 @@ h3 {
 }
 
 .SearchSec {
-    margin-top: 5px;
+    margin-top: 3px;
 }
