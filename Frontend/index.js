@@ -7,7 +7,7 @@ document.querySelector('.close').addEventListener('click', function() {
 
 document.getElementById('DoctorBtn').addEventListener('click', function() {
 
-    document.getElementById('DisBlock').style.display = 'none';
+    document.getElementById('UserSec').style.display = 'none';
     document.getElementById('DocAppointmentList').style.display = 'flex'
 
 });

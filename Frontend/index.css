@@ -49,6 +49,21 @@ h1 {
     float: left;
 }
 
+.sec {
+    font-size: x-large;
+    border: 10px;
+    height: 100%;
+    width: 80%;
+    margin-top: 20px;
+    background-color: paleturquoise;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: center;
+}
+
 #SideBtn {
     width: 15%;
 }
@@ -61,6 +76,7 @@ h1 {
     border: 20px;
     margin: 20px;
     border-radius: 5px;
+    text-decoration-color: black;
 }
 
 .aa:hover {
@@ -171,6 +187,7 @@ h1 {
     justify-content: center;
     align-items: center;
     display: none;
+    top: 150px;
 }
 
 .Popup-content {
@@ -195,7 +212,7 @@ h1 {
 
 .DocAppointmentList {
     margin-left: 20%;
-    font-size: xx-large;
+    font-size: large;
     border: 10px;
     height: 100%;
     width: 80%;
@@ -205,5 +222,79 @@ h1 {
     display: none;
     justify-content: start;
     flex-direction: column;
-    align-items: center;
+}
+
+.DocAppointmentList p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.box {
+    height: 300px;
+    width: 320px;
+    background-color: snow;
+    border: solid;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: rgb(228, 210, 210);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: paleturquoise;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a,
+    .topnav input[type=text],
+    .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.SearchSec {
+    margin-top: 5px;
 }
