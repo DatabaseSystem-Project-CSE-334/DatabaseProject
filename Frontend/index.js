@@ -8,6 +8,7 @@ document.querySelector('.close').addEventListener('click', function() {
 document.getElementById('DoctorBtn').addEventListener('click', function() {
 
     document.getElementById('UserSec').style.display = 'none';
+    document.getElementById('Title').innerHTML = 'Your Patient List';
     document.getElementById('DocAppointmentList').style.display = 'flex'
 
 });

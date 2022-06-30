@@ -129,8 +129,10 @@ h3 {
 
 .RegisterLink a {
     text-decoration: none;
-    text-transform: capitalize;
     color: darkgreen;
+    border: solid blanchedalmond;
+    margin: 100px;
+    border-radius: 10px;
 }
 
 .RegisterLink a:hover {
@@ -252,6 +254,13 @@ h3 {
 
 .topnav .search-container {
     float: right;
+    display: flex;
+}
+
+.topnav .search-container p {
+    text-align: center;
+    margin-right: 500px;
+    font-size: large;
 }
 
 .topnav input[type=text] {
@@ -297,4 +306,9 @@ h3 {
 
 .SearchSec {
     margin-top: 3px;
+}
+
+.boxx {
+    border: solid floralwhite;
+    font-size: larger;
 }
