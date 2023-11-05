@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1>You are a Doctor</h1>
+    <form action="/registerDoctor" method="post">
+    <div class="DocRegiPage">
+        <h3><u>Your Information </u></h3>
+        <p>Name:
+            <input type="text" placeholder="First Name" name="DFName">
+            <input type="text" placeholder="Last Name" name="DLName"></p>
+        <p>Date of Birth: <input type="text" placeholder="9/9/1999" name="DDOB"> </p>
+        <p>Blood Group: <input type="text" placeholder="blood Group" name="DBG"> </p>
+        <p>Gender: <input type="text" placeholder="Male/Female" name="DGen"> </p>
+
+        <h4><u>Doctor's Details</u></h4>
+
+        <p>Phone Number : <input type="text" placeholder="office number" name="DONum"> </p>
+        <p>Phone Number : <input type="text" placeholder="Personal" name="DPNum"> </p>
+        <p>Visit Fee : <input type="number" placeholder="Visit Fee(tk)" name="DVFee"> </p>
+        <p>Experiance : <input type="number" placeholder="In Years" name="DExp"> </p>
+        <p>Specialty : <input type="text" placeholder="In short" name="DSpe"> </p>
+        <div class="WorkingArea">
+            <h4><u>Working In</u></h4>
+            <p>Institute: <input type="text" placeholder="institute name" name="DInsName"> </p>
+            <p>Address: <input type="text" placeholder="Room No." name="DRoomNo"> 
+                <input type="text" placeholder="Building No" name="DBNo">
+                <input type="text" placeholder="Place Name" name="DPName">
+                 <input type="text" placeholder="City Name" name="DCName"> </p>
+        </div>
+        <h4>Authentication</h4>
+        <p>Email: <input type="text" placeholder="Email" name="DEmail" required></p>
+        <p>Password: <input type="password" placeholder="Password" name="DPass"></p>
+
+        <button class="RegiSubmitBtn"><b>Submit</b></button>
+
+    </div>
+    </form>
+
+</body>
+
+</html>

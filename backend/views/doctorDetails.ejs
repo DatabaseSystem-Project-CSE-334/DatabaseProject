@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Details </title>
+    <link  rel="stylesheet" href="/index.css">
+    <h1> Doctor Details </h1>
+</head>
+<body>
+      
+    <p>Doctor Name: Dr.<%= doctor[0].F_Name %> <%= doctor[0].L_Namel %>  </p>
+    <p>Doctor Email: <%= doctor[0].Email  %> </p>
+    <p>Appointment Number :<%= doctor[0].Offic_Num %> </p>
+    <p>Blood Group : <%= doctor[0].BG  %></p>
+    <p>Geneder : <%= doctor[0].Gender  %> </p>
+    <p>Experience : <%= doctor[0].Experienc  %></p>
+    <p>Specialty : <%= doctorSp[0].DSpe  %></p>
+    <p>Visit Fee : <%= doctor[0].Visit_Fee  %></p>
+
+    <br>
+    <h1><u> Request Appointment </u></h1>
+    <form action="/doctorDetails" method="post">
+        <p>Disease Name: <input type="text" placeholder="Disease Name" name="DisName"> </p>
+        <button class="LoginBtn"><b>Get Appointment</b></button>
+    
+    </form>
+
+
+</body>
+</html>

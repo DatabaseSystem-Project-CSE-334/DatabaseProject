@@ -1,0 +1,50 @@
+
+    <% 
+    if(tableData.length >0){
+        tableData.forEach(function (data) {%>
+        
+            <h3><%=data.D_ID %></h3>
+            <h3><%=data.FirstName %></h3>
+            <h3><%=data.LastName %></h3>
+            <h3><%=data.Email %></h3>
+
+            <%
+            
+        });
+
+    }
+%> 
+
+
+
+
+router.get('/',function(req,res,next){
+    var query="select * from doctortable where D_ID=1";
+    database.query(query,function(error,data){
+
+        if(error){
+            throw error;
+        }
+        else{
+            res.render('home',{title:' ', action:'list', tableData:data});
+        }
+
+    });
+});
+
+
+
+const db=require('./connectDB');
+const path = require('path');
+const cookieParser=require('cookie-parser');
+const fileupload = require('express-fileupload');
+
+const user=require('./routes/user');
+const recipe=require('./routes/recipe');
+
+let initial_path = path.join(__dirname, "public");
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+app.use(cookieParser());
+app.use(express.static(initial_path));
+app.use(fileupload())

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment List</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+
+<body>
+    <h1>Your Information</h1>
+    <div class="menu">
+       
+        <a href="http://localhost:4010/home">Home</a>
+        <a href="http://localhost:4010/userAppntList">Appointment</a>
+        <a href="#">Contact</a>
+        <a href="#">Setting</a>
+        <a href="#">FAQ</a>
+        <a href="http://localhost:4010/login">Login</a>
+        <a href="http://localhost:4010/home">Logout</a>
+
+    </div>
+<div class="Profilebtn">
+    <p>Name    :    <b>   <%= patient[0].FirstName %> <%= patient[0].LastName %> </b> </p>
+    <p>Email:     <b><%= patient[0].PEmail  %> </b> </p>
+    <p>Phone Number : <b> <%= patient[0].PPhone %> </b>  </p>
+    <p>Blood Group :  <b> <%= patient[0].PBG  %></b> </p>
+    <p>Date of Birth : <b>  <%= patient[0].PDOB  %></b> </p>
+    <p>Geneder :  <b> <%= patient[0].PGender  %></b>  </p>
+    <p>Address : <b>  <%= patient[0].PAddress  %></b> </p>
+</div> 
+     
+    <br><br>
+
+    <form action="/userProfile" method="post">
+    <h1><u> Update Your Information </u></h1>
+    <p>Name:
+        <input type="text" placeholder="First Name" name="uFName">
+        <input type="text" placeholder="Last Name" name="uLName"></p>
+    <p>Phone: <input type="text" placeholder="Phone" name="uPhone"> </p>
+    <p>Address: <input type="text" placeholder="Address" name="uAdd"> </p>
+
+
+     <button class="LoginBtn">Update Your Profile</button>
+
+    </form>
+
+
+</body>
+
+</html>

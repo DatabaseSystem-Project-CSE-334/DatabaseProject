@@ -1,0 +1,325 @@
+.FirstHeading {
+    text-align: center;
+    color: purple;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+.menu {
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 30px;
+    color: purple;
+}
+
+.menu a:hover {
+    background-color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu a {
+        background-color: darksalmon;
+        margin: 5px;
+        text-align: center;
+    }
+}
+
+.Block {
+    font-size: xx-large;
+    border: 10px;
+    height: 100%;
+    width: 80%;
+    margin-top: 20px;
+    margin: 20px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    float: left;
+}
+
+.sec {
+    font-size: large;
+    border: 10px;
+    height: 100%;
+    width: 80%;
+    margin-top: 10px;
+    background-color: paleturquoise;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    height: 300px;
+    width: 320px;
+    background-color: snow;
+    border: solid;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px gray
+  
+}
+
+h3 {
+    text-align: center;
+}
+
+#SideBtn {
+    width: 15%;
+}
+
+.aa {
+    text-decoration: none;
+    font-size: x-large;
+    background-color: skyblue;
+    padding: 50px;
+    border: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration-color: black;
+}
+
+.aa:hover {
+    background-color: gray;
+}
+
+.DisBlock {
+    border: 10px;
+    background-color: blueviolet;
+    width: 50%;
+    margin: 5px;
+}
+
+.Profilebtn {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: paleturquoise;
+    font-size: large;
+}
+
+.Profilebtn:hover {
+    background-color: gray;
+}
+
+.LoginArea {
+    margin-top: 50px;
+    font-size: large;
+}
+
+.submit-area {
+    font-size: medium;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 40px;
+}
+
+.LoginArea a {
+    text-decoration: none;
+}
+
+.LoginArea a:hover {
+    background-color: gray;
+}
+
+.RegisterLink {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.RegisterLink a {
+    text-decoration: none;
+    color: darkgreen;
+    border: solid blanchedalmond;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.RegisterLink a:hover {
+    background-color: gray;
+}
+
+.DocRegiPage {
+    margin-left: 150px;
+    font-size: medium;
+}
+
+.WorkingArea {
+    margin-left: 50px;
+}
+
+.RegiSubmitBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.RegiSubmitBtn:hover {
+    opacity: 1;
+}
+
+.LoginBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.LoginBtn:hover {
+    opacity: 1;
+}
+
+.PopupProfile {
+    margin-left: 40%;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.95;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    top: 150px;
+}
+
+.Popup-content {
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background-color: whitesmoke;
+    opacity: 1;
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+}
+
+.close {
+    position: absolute;
+    right: 14px;
+    top: 0;
+    transform: rotate(45deg);
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.DocAppointmentList {
+    margin-left: 20%;
+    font-size: large;
+    border: 10px;
+    height: 100%;
+    width: 80%;
+    margin-top: 20px;
+    margin: 20px;
+    background-color: paleturquoise;
+    display: none;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.DocAppointmentList p{
+    font-size: large;
+    text-align: center;
+}
+
+
+
+.box:hover {
+    cursor: pointer;
+    background-color: rgb(228, 210, 210);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: paleturquoise;
+}
+
+.topnav .search-container {
+    float: right;
+    display: flex;
+}
+
+.topnav .search-container p {
+    text-align: center;
+    margin-right: 500px;
+    font-size: large;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a,
+    .topnav input[type=text],
+    .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.SearchSec {
+    margin-top: 3px;
+}
+
+.boxx {
+    border: solid floralwhite;
+    font-size: small;
+}
+tr,td{
+    border: 2px solid ;
+  
+  
+  }
+table{
+    border: 2px solid
+    
+  }
